@@ -1,0 +1,13 @@
+# Netlify redirects file
+# This file should be in the root directory
+
+# Redirect root to main HTML file
+/ /remixed-dd8fbb1d.html 200
+
+# Redirect common paths
+/index.html /remixed-dd8fbb1d.html 200
+/index /remixed-dd8fbb1d.html 200
+
+# SPA-like routing (optional - for future enhancements)
+# /admin/* /remixed-dd8fbb1d.html 200
+# /booking/* /remixed-dd8fbb1d.html 200

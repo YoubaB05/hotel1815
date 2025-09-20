@@ -2,17 +2,47 @@
 
 A premium hotel website showcasing the historic Hotel 1815 located at the Waterloo battlefield site.
 
+## 🚀 Live Demo
+
+**Deployed on Netlify:** [https://hotel1815.netlify.app](https://hotel1815.netlify.app)
+
 ## Features
 
 - **Premium Design**: Elegant, historical-themed design with luxury aesthetics
 - **Mobile Responsive**: Fully responsive with hamburger menu for mobile devices
-- **High-Quality Images**: Professional hotel and room photography from Unsplash
+- **High-Quality Images**: Professional hotel and room photography
 - **Interactive Gallery**: Image gallery showcasing hotel facilities
 - **Booking Form**: Functional booking form with validation
 - **Smooth Animations**: CSS animations and transitions for enhanced user experience
 - **Modern UI**: Clean, modern interface with premium styling
+- **SEO Optimized**: Meta tags, Open Graph, and Twitter Cards
+- **Performance Optimized**: Fast loading with image preloading
 
-## How to Run the Website
+## 🚀 Quick Deploy to Netlify
+
+### Method 1: Drag & Drop (Easiest)
+1. Go to [netlify.com](https://netlify.com) and sign up/login
+2. Drag the entire `hotel1815` folder to the deploy area
+3. Your site will be live in seconds!
+
+### Method 2: Git Integration (Recommended)
+1. Push your code to GitHub/GitLab/Bitbucket
+2. Connect your repository to Netlify
+3. Netlify will automatically deploy on every push
+
+### Method 3: Netlify CLI
+```bash
+# Install Netlify CLI
+npm install -g netlify-cli
+
+# Login to Netlify
+netlify login
+
+# Deploy from your project folder
+netlify deploy --prod
+```
+
+## 🏃‍♂️ Local Development
 
 ### Method 1: Direct File Opening (Simplest)
 1. Navigate to the project folder: `c:\Users\Yabyo\projects\github\hotel1815\`

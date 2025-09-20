@@ -1,0 +1,31 @@
+{
+  "name": "hotel1815-waterloo",
+  "version": "1.0.0",
+  "description": "Website for Hotel 1815 Waterloo - Historic hotel facing the Waterloo battlefield",
+  "main": "remixed-dd8fbb1d.html",
+  "scripts": {
+    "start": "npx serve .",
+    "build": "echo 'No build step required for static HTML'",
+    "dev": "npx serve . -l 3000",
+    "deploy": "netlify deploy --prod"
+  },
+  "keywords": [
+    "hotel",
+    "waterloo",
+    "napoleon",
+    "belgium",
+    "historic",
+    "luxury",
+    "battlefield"
+  ],
+  "author": "Hotel 1815 Waterloo",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/hotel1815.git"
+  },
+  "homepage": "https://hotel1815.netlify.app"
+}
